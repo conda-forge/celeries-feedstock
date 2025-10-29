@@ -1,5 +1,5 @@
 {% set name = "celeries" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/celeries-{{ version }}.tar.gz
-  sha256: fbb519702a763451b43d441949b81878131ecd427bef7930f7ebbe2999b0f885
+  sha256: d4b863512549e6eced9ac80d776a4605d0cc00b6739766ac50346c746c8428ac
 
 build:
   noarch: python
