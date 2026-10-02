@@ -1,13 +1,13 @@
 {% set name = "celeries" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/celeries-{{ version }}.tar.gz
-  sha256: 22031ad28e57ddc78064264f3c092349b47a6283457c441051e764f3ae53845f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/celeries-{{ version }}.tar.gz
+  sha256: 803900123bb01c1c87f03a90d4cb833bcaba8fab7bc20e5cfc940ad142c3a7d2
 
 build:
   noarch: python
